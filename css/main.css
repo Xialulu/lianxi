@@ -1,0 +1,307 @@
+.top{
+    padding:5px 0;
+}
+.top a {
+    font-size:12px;
+    line-height:16px;
+    height:16px;
+}
+.top a+a{
+    border-left:1px solid #c5c5c5;
+    padding-left:10px;
+}
+.top a:nth-of-type(1){
+    padding-right:10px;
+}
+/*内容*/
+.content{
+    background: #fff;
+    padding:5px;
+}
+/*头部*/
+.header{
+    padding:14px 9px;
+}
+.header-logo{
+    width:440px;
+    height:120px;
+}
+.header-logo-detail{
+    width:320px;
+    height:72px;
+    margin-top:50px;
+}
+/*导航*/
+.nav ul{
+    background:url("../images/bg.jpg") top center  repeat-x;
+    width:100%;
+    height: 40px;
+}
+
+.nav ul li{
+    float: left;
+    height: 40px;
+    padding-top: 5px;
+
+}
+
+.nav ul li > a{
+    font-size: 12px;
+    display: block;
+    line-height:30px;
+    padding:0 15px 0 16px;
+    color:#777;
+    border-left:1px solid #ccc;
+
+}
+.search{
+    margin-top:3px;
+    margin-left:105px;
+    border:1px solid #ccc;
+}
+.search a ,.search input {
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType = 0,startColorStr = #efefef,endColorStr = #fefefe); /*IE 6 7 8*/
+    background: -ms-linear-gradient(top, #efefef,  #fefefe);        /* IE 10 */
+    background:-moz-linear-gradient(top,#efefef,#fefefe);/*火狐*/
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#efefef), to(#fefefe));/*谷歌*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efefef), to(#fefefe));      /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #efefef, #fefefe);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #efefef, #fefefe);  /*Opera 11.10+*/
+}
+.search a{
+    display: block;
+    float: left;
+    padding:4px;
+    border-right:1px solid #ccc;
+    box-shadow: inset 0 1px #fff;
+}
+.search a img{
+    display: block;
+}
+.search input{
+    display: block;
+    float: left;
+    height:22px;
+    width:155px;
+    border:0;
+    box-shadow: inset 1px 1px 0 #fff;
+}
+
+/*产品 */
+
+.intro{
+    margin:20px 10px 0 10px;
+}
+.pro{
+    padding:16px 15px;
+    background: #f7f7f7;
+    border-left:1px solid #dfdfdf;
+    border-right:1px solid #dfdfdf;
+    border-bottom:1px solid #9d9d9d;
+    position: relative;
+    box-shadow:0 5px 5px #cfcfcf ;
+}
+.pro img{
+    display: block;
+}
+.fudong{
+    position: absolute;
+    bottom:29px;
+    left:30px;
+    background: rgba(255,255,255,0.5);
+    background-color: #fff\9; /* IE8 and below */
+    padding-left:13px;
+    padding-right:22px;
+}
+.fudong h4 ,.desc h4{
+    font-size:13px ;
+    color: #000;
+    padding-top:13px;
+}
+.fudong p , .desc p ,.desc-small p{
+    font-size: 12px ;
+    color:#575757;
+    line-height:18px;
+    padding:7px 0 10px 0;
+}
+.fudong p a , .desc p a ,.desc-small p a{
+    color:#000;
+    padding-left: 10px;
+}
+.biaoqian{
+    position: absolute;
+    top:28px;
+    left:27px;
+    color:#ffffff;
+    font-size: 12px;
+    line-height:24px;
+    padding:0 6px;
+}
+.desc{
+    width:175px;
+    padding-left: 10px;
+    padding-bottom: 36px;
+}
+
+.desc-small{
+    width:170px;
+    margin:0 auto;
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+.stop{
+    position: absolute;
+    left:197px;
+    top:115px;
+}
+.return{
+    position: absolute;
+    right:15px;
+    bottom:10px;
+    font-size:12px;
+    color: #000;
+}
+.last-pro{
+    background: url("../images/web-01_11.jpg") bottom center repeat-x;
+}
+
+/*底部*/
+.foot{
+    background: #f5f5f5;
+    margin:0 10px;
+}
+
+.foot > ul{
+    padding: 12px 0;
+    border-bottom: 1px solid #e3e3e3;
+}
+.foot > ul li{
+    overflow: hidden;
+    float: left;
+    padding:0 10px 0 12px;
+}
+
+.foot-bottom {
+    padding:10px 0;
+}
+.foot-bottom > p{
+    font-size:12px;
+    line-height: 28px;
+
+}
+.foot-bottom > p span{
+    padding: 0 8px;
+}
+.foot-bottom > p> span +span{
+    border-left: 1px solid #ccc;
+
+}
+.foot-bottom > ul{
+    float: right;
+}
+.foot-bottom > ul li{
+    float: left;
+    padding-right:6px ;
+}
+.foot-bottom > ul li img{
+    height:24px;
+    height:24px;
+}
+
+.bg-li{
+    background: url("../images/bg_li.jpg") top center repeat-x;
+}
+.nav ul .bg-li > a{
+    color: #000;
+}
+/*公共*/
+.bg-green{
+    background-color: #00a469;
+}
+.bg-blue{
+    background-color: #002f81;
+}
+.bg-yellow{
+    background-color: #736a00;
+}
+.bg-red{
+    background-color: #e50012;
+}
+.bg-grey{
+    background-color: #575757;
+}
+.marl15{
+    margin-left:15px;
+}
+.mart20{
+    margin-top:21px;
+}
+.ttop{
+    top:16px;
+    left:15px;
+}
+.wd198{
+    width:198px;
+}
+
+
+
+
+/*PacPro*/
+.top-back{
+overflow: hidden;
+}
+.top-back > a{
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size:12px;
+    padding-left: 10px;
+
+}
+.top-back a{
+    color:#fff;
+
+}
+.header-logo-pac{
+    width:343px;
+    height:120px;
+}
+.col-red{
+    color: #e50012;
+}
+.desc .col-red{
+    color: #e50012;
+}
+.fudong .col-red{
+    color: #e50012;
+}
+#pacpro ul .bg-li > a{
+    color: #e50012;
+}
+#pacpro ul li > a{
+    color:#000;
+}
+
+/*FOODPEX*/
+
+.header-logo-food{
+    width:414px;
+    height:120px;
+}
+.col-blue{
+    color: #002f81;
+}
+.desc .col-blue{
+    color: #002f81;
+}
+.fudong .col-blue{
+    color: #002f81;
+}
+#food ul .bg-li > a{
+    color: #002f81;
+}
+#food ul li > a{
+    color:#000;
+}

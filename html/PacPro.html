@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PacPro</title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/jquery-1.8.2.min.js"></script>
+</head>
+<body style="background: #f0f0f0;">
+<div class="contanier">
+    <div class="bg-red top-back">
+        <a href="swop.html">←返回SWOP</a>
+        <div class="top fr">
+            <a href="#">注册</a>
+            <a href="#">English</a>
+        </div>  
+    </div>
+    
+    <div class="clear"></div>
+    <div class="content">
+        <!--头部-->
+        <div class="header ">
+            <img src="../css/skin_img/hedaer-logo-pacpro@2x.png" alt="logo" title="logo" class="header-logo-pac ">
+
+        </div>
+
+        <!--导航栏-->
+        <div class="nav " id="pacpro">
+            <ul class="clearfix">
+                <li class="bg-li">
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="swop.html">SWOP</a>
+                </li>
+                <li>
+                    <a href="PacPro.html">PacPro Asia</a>
+                </li>
+                <li>
+                    <a href="#">ChinaPharm</a>
+                </li>
+                <li>
+                    <a href="FOODPEX.html">FoodPex</a>
+                </li>
+                <li>
+                    <a href="#">BulkPex</a>
+                </li>
+                <li>
+                    <a href="#">新闻中心</a>
+                </li>
+                <li>
+                    <a href="#">联系我们</a>
+                </li>
+                <li>
+                    <div class="search">
+                        <a href="#">
+                            <img src="../images/search.jpg" alt="search">
+                        </a>
+                        <input type="text">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="intro  last-pro" style="padding-bottom: 60px;position: relative;">
+            <div class="pro fl">
+                <img src="../images/f_443x358/01.jpg" alt="product" />
+                <div class="fudong"  style=" width:380px;">
+                    <h4 class="col-red">PacPro Asia 2015</h4>
+                    <p>
+                        PacPro Asia聚焦包装材料之生产及处理技术，将会展出各类包装材料，特别是纸，塑料，金属，玻璃，木，陶瓷及纺织品之先进生产机械设备、加工工艺及处理方案。
+                        <a href="#" class="col-red">查看详情&gt;</a>
+                    </p>
+
+                </div>
+                <p class="biaoqian bg-green">
+                    ChinaPharm
+                </p>
+            </div>
+            <div class="pro fl marl15">
+                <img src="../images/f_198x358/01.jpg" alt="product" />
+                <div class="fudong" style="width: 135px;">
+                    <h4 class="col-red">PacPro Asia 2015</h4>
+                    <p>
+                        国际包装材料生产及加工工业展览会
+                        <a href="#" class="col-red">查看详情&gt;</a>
+                    </p>
+
+                </div>
+                <p class="biaoqian bg-blue">
+                    FoodPex
+                </p>
+            </div>
+            <div class="pro fr  marl15">
+                <img src="../images/f_198x153/01.jpg" alt="product" />
+                <p class="biaoqian bg-yellow">
+                    FoodPex
+                </p>
+                <div class="desc">
+                    <h4 class="col-red">拥有最佳协同效应的一站式采购平台</h4>
+                    <p>
+                        SWOP是中国首个也是唯一一个涵盖4大相关展会的贸易盛会，覆盖从包装材料、包装设备及技术、包装和标签印刷到物流、仓储和自动化设备及技术的整个包装行业价值链……
+                        <a href="#" class="col-red">查看详情&gt;</a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="clear"></div>
+            <!--返回顶部-->
+            <a href="javascript:scroll(0,0)" class="return col-red" >↑返回顶部 </a>
+        </div>
+
+        <div class="clear"></div>
+        <!--底部-->
+        <div class="foot">
+            <ul style="overflow: hidden">
+                <li>
+                    <img src="../images/sprite@2x1_01.jpg" alt="lianjie" style="width: 66px;height: 64px;">
+                </li>
+                <li style="border-left: 1px solid #e9e9e9; border-right: 1px solid #e9e9e9;">
+                    <img src="../images/sprite@2x1_02.jpg" alt="lianjie" style="width: 66px;height: 64px;">
+                </li>
+                <li>
+                    <img src="../images/sprite@2x1_04.jpg" alt="lianjie" style="width: 144px;height: 20px;margin-top: 20px">
+                </li>
+
+            </ul>
+            <div class="foot-bottom ">
+                <p class="fl"><span>@都塞尔夫展览（上海）有限公司版权所有。</span><span>联系我们</span><span>互备注10042015</span></p>
+                <ul>
+                    <li>
+                        <img src="../images/sprite@2x_02.jpg" alt="lianjie">
+                    </li>
+                    <li>
+                        <img src="../images/sprite@2x_03.jpg" alt="lianjie">
+                    </li>
+                    <li>
+                        <img src="../images/sprite@2x_04.jpg" alt="lianjie">
+                    </li>
+                    <li>
+                        <img src="../images/sprite@2x_05.jpg" alt="lianjie">
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    $(function(){
+        $("#pacpro > ul > li").hover(function(){
+            $(this).addClass("bg-li").siblings().removeClass("bg-li");
+        });
+
+    });
+</script>
+</body>
+</html>
